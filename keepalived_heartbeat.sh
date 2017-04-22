@@ -5,7 +5,7 @@
 # required notify_nagios.rb script.
 #
 NOTIFY_SCRIPT="/usr/local/bin/notify_nagios.rb"
-NAGIOS_IP="171.64.144.11"
+NAGIOS_IP=$1
 NAGIOS_SERVICE_NAME="keepalived"
 KEEPALIVED_PID="/var/run/keepalived.pid"
 
